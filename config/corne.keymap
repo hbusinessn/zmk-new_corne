@@ -46,6 +46,7 @@
         #sensor-binding-cells = <0>;
         bindings = <&kp DOWN &kp UP>;
         //bindings = <&mkp C_SCROLL_DOWN &mkp C_SCROLL_UP>;
+        //just testing
         //bindings = <&msc SCRL_DOWN &msc SCRL_UP>;
         tap-ms = <30>;
     };
