@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    default_layout: default_layout {
+    foostan_corne_6col_layout: foostan_corne_6col_layout {
         compatible = "zmk,physical-layout";
         display-name = "6 Column";
 
