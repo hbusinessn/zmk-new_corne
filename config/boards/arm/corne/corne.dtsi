@@ -13,7 +13,7 @@
 
 
 // Assigning suitable kscan and matrix transforms
-&foostan_corne_6col_layout {
+&default_layout {
     transform = <&default_transform>;
     kscan = <&kscan0>;
 };
