@@ -60,7 +60,7 @@
     position_map {
         compatible = "zmk,physical-layout-position-map";
 
-        default_layout {
+        foostan_corne_6col_layout {
             physical-layout = <&default_layout>;
             positions = <>;
         };
