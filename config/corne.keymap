@@ -19,7 +19,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD0";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
+            bindings = <&kp LEFT_SHIFT &kp CAPS>;
         };
 
         mmv {
@@ -39,7 +39,7 @@
         compatible = "zmk,behavior-sensor-rotate";
         label = "RGB_ENCODER";
         #sensor-binding-cells = <0>;
-        bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
+        bindings = <&rgb_ug RGB_BRI &rgb_ug RGB_BRD>;
     };
 
     scroll_encoder: scroll_encoder {
