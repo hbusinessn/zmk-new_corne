@@ -76,6 +76,11 @@
     };
 };
 
+&zephyr_udc0 {
+    compatible = "zephyr,cdc-acm-uart";
+    status = "okay";
+};
+
 &flash0 {
     /*
      * For more information, see:
