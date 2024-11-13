@@ -76,12 +76,12 @@
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
-        lower_layer {
-            label = "NUMBER";
+        layer_1 {
+            status = "reserved";
         };
 
-        raise_layer {
-            label = "FUNCTIONS";
+        layer_2 {
+            status = "reserved";
         };
     
     };
