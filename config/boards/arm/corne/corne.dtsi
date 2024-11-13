@@ -78,6 +78,7 @@
 
 &zephyr_udc0 {
     compatible = "zephyr,cdc-acm-uart";
+    label = "CDC_ACM";
     status = "okay";
 };
 
