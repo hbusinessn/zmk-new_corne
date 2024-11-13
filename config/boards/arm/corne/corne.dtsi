@@ -76,9 +76,7 @@
     };
 };
 
-&zephyr_udc0 {
-    compatible = "zephyr,cdc-acm-uart";
-    label = "CDC_ACM";
+zephyr_udc0: &usbd {
     status = "okay";
 };
 
