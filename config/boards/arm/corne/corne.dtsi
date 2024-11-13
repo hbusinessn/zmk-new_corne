@@ -11,12 +11,6 @@
 #include <dt-bindings/led/led.h>
 
 
-minimal_transform: keymap_transform_0 {
-    compatible = "zmk,matrix-transform";
-    columns = <6>;
-    rows = <4>;
-};
-
 // Assigning suitable kscan and matrix transforms
 &foostan_corne_6col_layout {
     transform = <&minimal_transform>;
@@ -50,6 +44,12 @@ minimal_transform: keymap_transform_0 {
 		compatible = "zmk,keymap-sensors";
 		sensors = <&left_encoder>;
 	};
+
+    minimal_transform: keymap_transform_0 {
+    compatible = "zmk,matrix-transform";
+    columns = <6>;
+    rows = <4>;
+};
 };
 
 &adc {
