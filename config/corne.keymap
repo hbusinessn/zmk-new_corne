@@ -77,12 +77,10 @@
         };
 
         lower_layer {
-            bindings = <>;
             label = "NUMBER";
         };
 
         raise_layer {
-            bindings = <>;
             label = "FUNCTIONS";
         };
     
