@@ -1,4 +1,3 @@
-#include <layouts/foostan/corne/position_map.dtsi>
 #include <physical_layouts.dtsi>
 
 / {
