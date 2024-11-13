@@ -14,7 +14,7 @@
 
 // Assigning suitable kscan and matrix transforms
 &foostan_corne_6col_layout {
-    transform = <&matrix_transform>;
+    transform = <&default_transform>;
     kscan = <&kscan0>;
 };
 
@@ -46,7 +46,7 @@
 		sensors = <&left_encoder>;
 	};
 
-    matrix_transform: keymap_transform_0 {
+    default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <14>;
         rows = <5>;

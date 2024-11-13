@@ -48,6 +48,11 @@
 
 };
 
+&default_transform {
+    col-offset = <7>;
+};
+
+
 &spi3 {
     compatible = "nordic,nrf-spim";
     status = "okay";
