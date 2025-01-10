@@ -91,5 +91,9 @@
             >;
             sensor-bindings = <&scroll_encoder>;
         };
+
+        extra1 {
+            status = "reserved";
+        };
     };
 };
